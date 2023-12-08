@@ -1,0 +1,32 @@
+POST --> localhost:5555/api/create
+{
+  "name" : "mk",
+  "email" : "mk@gmail.com",
+  "mobile" : 7769,
+  "address" : "ned"
+}
+
+
+GET --> localhost:5555/api/getrecord
+{
+  "success": true,
+  "record": [
+    {
+      "_id": "6571f1e4650fef52426267ff",
+      "name": "sf",
+      "email": "sf@gmail.com",
+      "mobile": 7769,
+      "address": "ned",
+      "createdAt": "2023-12-07T16:25:08.994Z",
+      "updatedAt": "2023-12-07T16:25:08.994Z",
+      "__v": 0
+    }
+  ]
+}
+
+PUT --> localhost:5555/api/657200ede5825c117bbbbb0d
+{
+  "name" : "raj"
+}
+
+DELETE --> localhost:5555/api/6571fe6285c102819d4d1d99
